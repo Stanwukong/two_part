@@ -1,0 +1,103 @@
+body {
+	font-family: Arial, Helvetica, sans-serif;
+	margin: 0;
+}
+.header {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+
+
+/* THE MAIN */
+header,
+main {
+	padding: 0 20px;
+}
+main {
+	display: grid;
+	grid-template-columns: repeat(auto-fit, 33%);
+	gap: 10px;
+	justify-content: space-evenly;
+	
+}
+.input {
+	grid-column: 2 / span 2;
+	background: none;
+	border: 1px solid rgba(0, 0, 255, 0.5);
+	border-radius: 10px;
+	box-sizing: border-box;
+	padding: 20px;
+	align-items: center;
+
+}
+main div {
+	padding: 2px;
+	background-image: url("img/race_track.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	height: 300px;
+}
+
+/* The input div */
+.input h2 {
+	font-size: 30px;
+	font-weight: 500;
+	letter-spacing: 1px;
+}
+
+.input p#about {
+	font-size: 15px;
+	letter-spacing: 1px;
+}
+
+.input button {
+	padding: 10px;
+	font-size: 25px;
+	font-weight: 500;
+	background-color: black;
+	color: white;
+	text-align: left;
+}
+.input input{
+	display: inline;
+	font-size: 20px;
+	padding: 20px;
+	width: 43vw;
+	margin-right: 2vw;
+	background-color: rgba(216, 227, 233, 0.274);
+	border: 1px solid black;
+}
+ .tyl {
+	background: none;
+	display: flex;
+	height: fit-content;
+ }
+ /* The f1 pub tags */
+ .tag {
+	background-color: rgba(128, 0, 128, 0.2);
+	display: inline-block;
+	font-size: 20px;
+	text-align: left;
+	padding: 10px 20px 10px 10px;
+	position: relative;
+	left: 15px;
+ }
+ /* The about section */
+ #abouts {
+	background-image: none;
+	border: 1px solid rgba(0, 0, 255, 0.5);
+	padding: 20px;
+	box-sizing: border-box;
+	font-size: 18px;
+ }
+
+ /* The footer */
+ footer {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	background-color: black;
+	color: greenyellow;
+	padding: 40px 20px;
+ }
